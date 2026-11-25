@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Route Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Route Search Web App</h1>
+  <p id="map-name"></p>
+
+  <div class="container">
+    <div class="panel">
+      <h3>Choose the route</h3>
+
+      <label>Start city</label>
+      <select id="start"></select>
+
+      <label>Goal city</label>
+      <select id="goal"></select>
+
+      <label>Algorithm</label>
+      <select id="algorithm">
+        <option>BFS</option>
+        <option>DFS</option>
+        <option>UCS</option>
+        <option>Greedy</option>
+        <option>A*</option>
+      </select>
+
+      <div>
+        <button onclick="findRoute()">Find route</button>
+        <button onclick="compareAll()">Compare all</button>
+      </div>
+
+      <div id="result"></div>
+
+      <h3>Upload a new map (JSON)</h3>
+      <input type="file" id="map-file" accept=".json">
+      <button onclick="uploadMap()">Upload map</button>
+      <p id="upload-message"></p>
+    </div>
+
+    <div class="panel">
+      <svg id="map" width="600" height="600"></svg>
+    </div>
+  </div>
+
+  <div id="compare"></div>
+
+  <script src="map.js"></script>
+  <script src="uninformed.js"></script>
+  <script src="informed.js"></script>
+  <script src="draw.js"></script>
+  <script src="upload.js"></script>
+  <script src="main.js"></script>
+  <script>showMap();</script>
+</body>
+</html>
