@@ -5,9 +5,9 @@ Fundamentals of Artificial Intelligence (10672224) — Fall 2026
 ## Group members
 | Name | Student ID | Part |
 |------|-----------|------|
-| L    | ...       | Map, graph, heuristic h(n), BFS, DFS, UCS (map.js, uninformed.js) |
-| J    | ...       | Greedy, A*, Find route + Compare all (informed.js, main.js) |
-| S    | ...       | Page, style, map drawing, upload (index.html, style.css, draw.js, upload.js) |
+| Leen Mahmoud    | 12427878       | Map, graph, heuristic h(n), BFS, DFS, UCS (map.js, uninformed.js) |
+| Jumana Salahat    | 12429912       | Greedy, A*, Find route + Compare all (informed.js, main.js) |
+| Sema Ghazal    | 12429019       | Page, style, map drawing, upload (index.html, style.css, draw.js, upload.js) |
 
 ## How to run
 No installation needed. Just open **index.html** in a browser (Chrome, Edge or Firefox).
