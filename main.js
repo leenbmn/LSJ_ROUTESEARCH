@@ -1,5 +1,4 @@
 
-Leen
 const ALGORITHMS = ["BFS", "DFS", "UCS", "Greedy", "A*"];
 let lastResults = [];
 
